@@ -1,0 +1,123 @@
+Maze #1:
+	Size: 10x10
+	Start Location: 5 6
+	Shortest Path: 10
+	**********
+	*    *   *
+	*LLLW  L *
+	*      L *
+	*   111L *
+	*   1L0L *
+	*   1 L  *
+	*WWW2WWW *
+	*   11E  *
+	**********
+This one tested to see if it will go thourgh water in order to fin the shortest 
+path 
+
+Maze #2:
+	Size: 10x10
+	Start Location: 2 4
+	Shortest Path: 12
+	**********
+	*   11111*
+	*   0  *1*
+	*LLLLLL*1*
+	*      *1*
+	*     * 1*
+	*     * 1*
+	*     * 1*
+	*      *E*
+	**********
+Orginally thisone did not have lava, this was my first maze test. Testing to find
+end point.
+Maze #3:
+	Size: 10x10
+	Start Location: 8 8
+	Shortest Path: 18
+	**********
+	*E*      *
+	*11      *
+	**1*******
+	*21      *
+	*2***LL  *
+	*1       *
+	*1********
+	*11111110*
+	**********
+see if it will go through water.
+Maze #4:
+	Size: 30x30
+	Start Location: 1 1
+	Shortest Path: 206
+	******************************
+	*0111111111111111111111111111*
+	****************************1*
+	*1111111111111111111111111111*
+	*1************************** *
+	*1****************************
+	*11111111111111              *
+	*LLLLLLLLLLLLL1LLLLLLLLLLLLLLL
+	*11111111111111              *
+	*2****************************
+	*1                           *
+	*1****************************
+	*1111111111111111111111111111*
+	*LLLLLLLLLLLLLLLLLLLLLLLLLLL2*
+	*                       11111*
+	*LLLLLLLLLLLLLLLLLLLLLLL1LLLL*
+	***********************L1    *
+	*111111111111111111111111    *
+	*1L*L*L*L*L*L*L*L*L*L*L*L*L*L*
+	*1111111111111111111111111111*
+	****************************1*
+	*                           1*
+	*LLLLLLLLLLLLLLLLLLLLLL     1*
+	*                     LLLLL 1*
+	*                         L 1*
+	***********************L  * 1*
+	*             *LLLLLLLLL*** 1*
+	*             *        121* 1*
+	*             *E11111111*1111*
+	******************************
+Test to see if it can solve a 30x30 maze.
+Maze #5:
+	Size: 20x20
+	Start Location: 18 10
+	Shortest Path: 83
+	********************
+	*E          W LL111*
+	*1********** L W1L1*
+	*1         * L L1L1*
+	*2********** L  1L1*
+	*1            * 1L1*
+	*1**************1L1*
+	*1             *1L1*
+	*1**************1L1*
+	*1111111111*   11L1*
+	*   * *  *1****1**1*
+	* ********1*  *1 *1*
+	*         111111 *1*
+	******************1*
+	*        1111111111*
+	*LLLLLLLL1LLLLLLLLL*
+	*111111111         *
+	*1****************W*
+	*1111111110        *
+	********************
+Have the starting point at a lower point than the endpoint
+Maze #6:
+	Size: 10x10
+	Start Location: 1 8
+	Shortest Path: 11
+	**********
+	* *   * 0*
+	*      11*
+	*******1**
+	*W     1 *
+	* ***LL1 *
+	*    *11 *
+	* ****1*W*
+	*   E11  *
+	**********
+Make sure that it can find end point without having to go through water.
